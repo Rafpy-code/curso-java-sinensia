@@ -1,0 +1,39 @@
+1. https://start.spring.io/
+
+	-Project: Maven Project
+	-Language: Java
+	-Spring Boot: version estable!	//3.0.0	 2.7.1  etc...
+
+*Project Metadata
+Group
+	com.ramonfpy.spring
+Artifact
+	ejemplo
+Name
+	SpringDesdeCeroEjemplo
+Description
+	Como usar spring, ejemplo sencillo que se puede replicar.
+Package name
+	com.ramonfpy.spring.ejemplo
+Packaging
+	War
+Java
+	version actual! // 18	17 etc...
+	
+*Dependencies ADD ...
+MySQL Driver SQL
+	MySQL JDBC and R2DBC driver.
+Spring Data JPA SQL
+	Persist data in SQL stores with Java Persistence API using Spring Data and Hibernate.
+
+*GENERATE. //Descarga el archivo zip y ya podemos descomprimir e importarlo al IDE.
+
+2. Crear la base de datos que se va a usar en el proyecto.
+
+3. # ESTAS SON MIS CREDENCIALES aplicationProperties
+spring.datasource.url=jdbc:mysql://localhost:3306/ejemplo_spring?serverTimezone=Europe/Madrid
+spring.datasource.username=root
+spring.datasource.password=1973
+spring.jpa.hibernate.ddl-auto=update
+
+4. Para correr spring -> carpeta del proyecto donde se encuentre  -> mvnw.cmd spring-boot:run

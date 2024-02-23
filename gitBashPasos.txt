@@ -1,0 +1,83 @@
+PASOS PARA USAR GIT CON LA CONSOLA 
+
+0. Crear un nuevo repositorio en GitHub:
+	https://github.com/RamoncinFPY/Jdbc-Transacciones
+
+1. Dentro de la carpeta que tengo el proyecto:	
+	-click btn dercho; abrir git Bash here.
+user@LAPTOP-5J6QVI26 MINGW64 /d/PROGRAMACION/JavaCurso/JDBC_transacciones
+$ 1. git config --global user.name myusername
+  2. git config --global user.email myemail
+  3. git config --global github.user myusername
+  4. gitgit config --global github.token mytoken
+
+2. user@LAPTOP-5J6QVI26 MINGW64 /d/PROGRAMACION/JavaCurso/JDBC_transacciones
+$ git init   <- Escribir + ENTER
+
+Initialized empty Git repository in D:/PROGRAMACION/JavaCurso/JDBC_transacciones/.git/
+	//Se crea la carpeta oculta .git
+
+3. user@LAPTOP-5J6QVI26 MINGW64 /d/PROGRAMACION/JavaCurso/JDBC_transacciones
+$ git add .  <- Escribir + ENTER  // git add NOMBRE DEL ARCHIVO si quieres subir un archivo específico.
+
+warning: LF will be replaced by CRLF in 1_java_jdbc_singleton_trx/pom.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 2_java_jdbc_pool_trx/pom.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in 3_java_jdbc_pool_trx_service/pom.xml.
+The file will have its original line endings in your working directory
+
+4. user@LAPTOP-5J6QVI26 MINGW64 /d/PROGRAMACION/JavaCurso/JDBC_transacciones
+$ git status  <- Escribir + ENTER  // -s para ver las difeerencias
+
+On branch master
+
+No commits yet
+
+Changes to be committed:  //Se mostrará en verde (en mi caso)
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .idea/.gitignore
+        new file:   .idea/JDBC_transacciones.iml
+        new file:   .idea/codeStyles/Project.xml
+        new file:   .idea/codeStyles/codeStyleConfig.xml
+        new file:   .idea/compiler.xml
+
+5. El comando git diff.- Este comando nos muestra las diferencias línea a linea que existen entre el archivo que está en el stagin area y lo que está en el directorio de trabajo y no se añadido.
+
+6. user@LAPTOP-5J6QVI26 MINGW64 /d/PROGRAMACION/JavaCurso/JDBC_transacciones
+$ git commit -m "Creando repositorio desde git Bash" <- Escribir + ENTER
+
+[master (root-commit) 49646dc] creando repositorio desde git Bash
+ 86 files changed, 1943 insertions(+)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/JDBC_transacciones.iml
+ create mode 100644 .idea/codeStyles/Project.xml
+
+7. user@LAPTOP-5J6QVI26 MINGW64 /d/PROGRAMACION/JavaCurso/JDBC_transacciones
+$ git status -s <- Escribir + ENTER  //Si todo va bien no aparecerá nada o mostrará diferencias con una m de color rojo.
+
+8. user@LAPTOP-5J6QVI26 MINGW64 /d/PROGRAMACION/JavaCurso/JDBC_transacciones (master)
+$ git remote add origin https://github.com/RamoncinFPY/Jdbc-Transacciones   <- Escribir + ENTER 
+
+9. user@LAPTOP-5J6QVI26 MINGW64 /d/PROGRAMACION/JavaCurso/JDBC_transacciones
+$ git remote -v.  <- Escribir + ENTER    // Esto hace algo de magia usando git pull y git push para garantizar que el contenido de tu nuevo repositorio de Github y la carpeta en tu sistema local sean los mismos.
+
+origin  https://github.com/RamoncinFPY/Jdbc-Transacciones (fetch)
+origin  https://github.com/RamoncinFPY/Jdbc-Transacciones (push)
+
+10.  user@LAPTOP-5J6QVI26 MINGW64 /d/PROGRAMACION/JavaCurso/JDBC_transacciones
+$ git push origin master  <- Escribir + ENTER    // Terminado.
+
+EN CASO DE NO PODER REALIZAR EL PUSH O SALTA UN ERROR DE BRANCH O FETCH
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/RamoncinFPY/Jdbc-Transacciones'
+	
+
+	1. git pull
+	2. git push origin master
+
+Sino:
+
+	1. git fetch
+	2. git rebase origin/master
+	3. git push origin master

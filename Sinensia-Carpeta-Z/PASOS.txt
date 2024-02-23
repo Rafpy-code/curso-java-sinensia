@@ -1,0 +1,8 @@
+
+
+1.- Crear tablas en schema.sql
+2.- Crear datos de ejemplo en data.sql
+3.- Crear POJO en "com.sinensia.empanafy.backend.model"
+4.- Mapear el POJO con anotaciones @Entity, @Table, @Id, ...
+5.- Crear el repositorio en "com.sinensia.empanafy.backend.repositories"
+6.- Crear el controlador en "com.sinensia.empanafy.backend.controllers"

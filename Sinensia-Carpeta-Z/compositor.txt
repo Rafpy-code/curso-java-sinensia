@@ -1,0 +1,16 @@
+COMPOSITOR
+==========
+
+1.- Crear tabla
+2.- Crear datos de ejemplo
+3.- Mapear mediante anotaciones la clase Compositor (@Entity, @Id, @Table....)
+4.- Crear repositorio CompositorRepository
+5.- Crear controlador CompositorController
+
+ 	- Definir endpoints básicos
+
+		GET 	/compositores
+		GET 	/compositores/{id}
+		POST	/compositores
+
+*Observaciones: El POJO se parece mucho a Genero. Nos podemos basar en Genero

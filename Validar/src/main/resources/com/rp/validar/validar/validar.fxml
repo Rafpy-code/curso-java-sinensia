@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="480.0" style="-fx-border-color: #03f0fc;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rp.validar.validar.ValidarController">
+    <children>
+        <VBox layoutX="192.0" layoutY="63.0" prefHeight="209.0" prefWidth="234.0">
+            <children>
+                <Separator orientation="VERTICAL" prefHeight="200.0" visible="false" />
+                <TextField fx:id="txt_nombre" layoutX="10.0" layoutY="10.0" />
+                <Separator orientation="VERTICAL" prefHeight="200.0" visible="false" />
+                <TextField fx:id="txt_apellido" layoutX="10.0" layoutY="10.0" />
+                <Separator orientation="VERTICAL" prefHeight="200.0" visible="false" />
+                <TextField fx:id="txt_dni" layoutX="10.0" layoutY="10.0" />
+                <Separator orientation="VERTICAL" prefHeight="200.0" visible="false" />
+            </children>
+        </VBox>
+        <VBox layoutX="53.0" layoutY="68.0" prefHeight="200.0" prefWidth="100.0">
+            <children>
+                <Separator orientation="VERTICAL" prefHeight="200.0" visible="false" />
+                <Label alignment="CENTER_RIGHT" contentDisplay="CENTER" prefHeight="17.0" prefWidth="123.0" text="Nombre:" />
+                <Separator orientation="VERTICAL" prefHeight="200.0" visible="false" />
+                <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="10.0" layoutY="10.0" prefHeight="17.0" prefWidth="117.0" text="Apellido:" />
+                <Separator orientation="VERTICAL" prefHeight="200.0" visible="false" />
+                <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="10.0" layoutY="10.0" prefHeight="17.0" prefWidth="127.0" text="DNI:" />
+                <Separator orientation="VERTICAL" prefHeight="200.0" visible="false" />
+            </children>
+        </VBox>
+        <HBox alignment="CENTER" layoutX="53.0" layoutY="288.0" prefHeight="37.0" prefWidth="373.0">
+            <children>
+                <Button id="btn_enviar" mnemonicParsing="false" onAction="#btn_enviar_action" prefHeight="25.0" prefWidth="100.0" style="-fx-border-color: #03f0fc;" text="Enviar" />
+                <Separator prefHeight="3.0" prefWidth="36.5" visible="false" />
+                <Button id="btn_limpiar" mnemonicParsing="false" onAction="#btn_limpiar_action" prefHeight="25.0" prefWidth="100.0" style="-fx-border-color: #03f0fc;" text="Limpiar" />
+                <Separator prefHeight="10.0" prefWidth="36.5" visible="false" />
+                <Button id="btn_salir" mnemonicParsing="false" onAction="#btn_salir_action" prefHeight="25.0" prefWidth="100.0" style="-fx-border-color: #03f0fc;" text="Salir" />
+            </children>
+        </HBox>
+        <Label fx:id="lbl_salida" layoutX="52.0" layoutY="325.0" prefHeight="62.0" prefWidth="373.0" />
+        <Label alignment="CENTER" layoutX="135.0" layoutY="25.0" prefHeight="37.0" prefWidth="210.0" style="-fx-border-color: #03f0fc;" text="Registro de Usuarios" textAlignment="CENTER">
+            <font>
+                <Font size="20.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

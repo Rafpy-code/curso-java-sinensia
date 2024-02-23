@@ -1,0 +1,51 @@
+
+1.- Creamos una aplicación en Java donde necesitamos modelizar una canción. Las canciones tienen un género, un intérprete y un compositor. Crear el modelo (POJOS) de dichas clases eligiendo los atributos que consideréis necesarios.
+
+***************************************************************************************
+
+
+2.- Estamos diseñando una aplicación en Java para gestionar videojuegos. Cada videojuego dispone de las siguientes propiedades:
+
+- código (String)
+- título (String)
+- categoría (enumeración)
+- fecha de lanzamiento (Date)
+- fabricante (String)
+- precio (double)
+
+* categoria -> Elegir entre diferentes categorías.
+
+Crear el modelo (POJO) en Java. Se valorará positivamente que el POJO sea "perfecto"
+
+***************************************************************************************
+
+3.- El ayuntamiento de Barcelona dispone de una serie de estaciones metereológicas distribuidaas en diferentes puntos de la ciudad. Dichas estaciones disponen de un código numérico que las indentifica. La función de dichas estaciones es enviar a un servidor diferentes lecturas metereologicas recogidas en intervalos de tiempo.
+
+Cada estación tiene los siguientes atributos:
+
+- codigo
+- nombre
+- direccion (direccion, poblacion, codigo postal, provincia, pais)
+- estado [OPERATIVA, BAJA, MANTENIMIENTO]
+
+Cada lectura enviada por cada estaciónn tienen los siguientes atributos:
+
+- temperatura (double)
+- presión admosférica (double)
+- velocidad del viento (double)
+- fecha y hora (timestamp)
+
+Crear el modelo (POJOS) en Java
+
+***************************************************************************************
+
+
+Forma de entrega:
+
+entregar los ficheros sueltos .java (no los proyectos enteros) a la dirección:
+
+jordi.alemany@sinensia.com
+
+
+
+

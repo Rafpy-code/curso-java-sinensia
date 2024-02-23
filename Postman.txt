@@ -1,0 +1,11 @@
+Postman
+	http://192.168.56.1:8080/usuario
+
+-POST
+	body -> raw -> Json
+	{
+        	//"id": 4, //No se ingresa, este se va autoincrementando.
+        "nombre": "Cisc",
+        "email": "cisc@mail.com",
+        "prioridad": 5
+    	}

@@ -1,0 +1,8 @@
+1. Crear el repositorio en gitHub
+2. Copiar el link del repositorio
+3. En IntellJ -> Get from VCS
+4. Pegamos la Url y clonamos el repositorio
+5. Le damos a crear nuevo proyecto 
+6. Buscamos el directorio donde clonamos el repositorio
+7. Creamos el proyecto 
+8. Ya podemos hacer los comits directamente desde IntellJ

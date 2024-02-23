@@ -1,0 +1,35 @@
+1.- Creamos proyecto de Spring Boot desde https://start.spring.io/
+
+2.- Definimos el modelo de datos en Java
+
+3.- Definimos el modelo de datos ER (base de datos)
+
+
+	- Crar scripts schema.sql y data.sql en carpeta resources/data/h2/
+	- Indicar en application.properties que se deben ejecutar dichos scripts
+
+4.- Creamos tabla ER
+
+5.- Creamos datos de ejemplo
+
+6.- Seguimos configurando application.properties -> Esta vez para indicar que vamos a trabajar
+    con JPA y que las anotaciones (@Entity, @Table, @Column, etc...) las vamos a validar!
+	
+	
+7.- Mapeamos! Creamos las anotaciones de JPA en nuestro modelo. Hemos de mirar con un ojo a nuestro  
+    modelo de Java (la clase Alumno) y con el otro ojo estar pendientes de la tabla ALUMNOS	
+	
+8.- Extendemos JpaRepository
+
+9.- Creamos un controlador REST para Alumno. Los controladores REST son los que nos devuelven simplemente
+    datos en formato JSON. Esto es opcional. No todas las aplicaciones van a gestionar datos de
+	esta manera.
+
+10.- Vamos a configurar JSP! 
+
+		a- Incluimos las dependencias necesarias en el pom.xml (mirar JSP y JSTL)
+		b- Creamos una carpeta para colocar las vistas JSP (mirar captura pantalla)
+		c- Configuramos application.properties para indicarle dónde "viven" las vistas JSP así como 
+		  la extensión de esos fichero (que normalmente es .jsp)
+		  
+		  

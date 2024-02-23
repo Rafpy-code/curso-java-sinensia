@@ -1,0 +1,6 @@
+com\ramonfpy\demo\controllers\UsuarioController.class
+com\ramonfpy\demo\models\UsuarioModel.class
+com\ramonfpy\demo\ServletInitializer.class
+com\ramonfpy\demo\services\UsuarioService.class
+com\ramonfpy\demo\DemoApplication.class
+com\ramonfpy\demo\repositories\UsuarioRepository.class

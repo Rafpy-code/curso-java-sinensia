@@ -1,0 +1,6 @@
+D:\PROGRAMACION\JavaCurso\Spring\workspace\spring-boot-backend-apirest\src\main\java\com\clientes\springboot\backend\apirest\models\dao\IClienteDao.java
+D:\PROGRAMACION\JavaCurso\Spring\workspace\spring-boot-backend-apirest\src\main\java\com\clientes\springboot\backend\apirest\models\services\ClienteServiceImpl.java
+D:\PROGRAMACION\JavaCurso\Spring\workspace\spring-boot-backend-apirest\src\main\java\com\clientes\springboot\backend\apirest\models\entity\Cliente.java
+D:\PROGRAMACION\JavaCurso\Spring\workspace\spring-boot-backend-apirest\src\main\java\com\clientes\springboot\backend\apirest\controllers\ClienteRestController.java
+D:\PROGRAMACION\JavaCurso\Spring\workspace\spring-boot-backend-apirest\src\main\java\com\clientes\springboot\backend\apirest\SpringBootBackendApirestApplication.java
+D:\PROGRAMACION\JavaCurso\Spring\workspace\spring-boot-backend-apirest\src\main\java\com\clientes\springboot\backend\apirest\models\services\IClienteService.java
